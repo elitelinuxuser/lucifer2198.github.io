@@ -8,7 +8,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Honest &mdash; Free Website Template, Free HTML5 Template by GetTemplates.co</title>
+	<title>Coding Guidance!</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by GetTemplates.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -26,6 +26,9 @@
 	<meta name="twitter:card" content="" />
 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+	<!-- Favicon for the website -->
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -48,10 +51,6 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
 
 	</head>
 	<body>
@@ -68,7 +67,7 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-6 col-xs-6">
-						<div id="gtco-logo"><a href="index.html">Honest <em>.</em></a></div>
+						<div id="gtco-logo"><a href="index.html"><img id="icon-final" src="assets/images/Coding-icon.svg" alt="">&nbsp;Coding <em>.</em></a></div>
 					</div>
 					<div class="col-md-6 col-xs-6 social-icons">
 						<ul class="gtco-social-top">
@@ -108,20 +107,20 @@
 		</nav>
 	</div>
 
-	<header id="gtco-header" class="gtco-cover gtco-cover-md" role="banner" style="background-image: url(images/img_bg_4.jpg)" data-stellar-background-ratio="0.5">
+	<header id="gtco-header" class="gtco-cover gtco-cover-md" role="banner" style="background-image: url(assets/images/img_bg_4.jpg)" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="gtco-container">
 			<div class="row row-mt-15em">
 				<div class="col-md-12 mt-text text-center animate-box" data-animate-effect="fadeInUp">
 					<h1>We Build <strong>Branded Platforms</strong></h1>
 					<h2>Far far away, behind the word mountains, far from the countries Vokalia.</h2>
-					<div class="text-center"><a href="https://vimeo.com/channels/staffpicks/93951774" class="btn btn-primary btn-lg popup-vimeo">Watch the video</a></div>
+					<div class="text-center"><a href="#sec2" class="btn btn-primary btn-lg">Get Started</a></div>
 				</div>
 			</div>
 		</div>
 	</header>
 
-	<div class="flex-section gtco-gray-bg">
+	<div class="flex-section gtco-gray-bg" id="sec2">
 		<div class="col-1">
 			<div class="text">
 
@@ -499,7 +498,7 @@
 	</div>
 
 	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+		<a href="#head-top" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
 
 	<!-- jQuery -->
@@ -518,6 +517,9 @@
 
 	<!-- Stellar Parallax -->
 	<script src="js/jquery.stellar.min.js"></script>
+
+	<!-- Smooth Scrolling -->
+	<script src="js/smoothscroll.js"></script>
 
 	<!-- Magnific Popup -->
 	<script src="js/jquery.magnific-popup.min.js"></script>
