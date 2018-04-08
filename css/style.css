@@ -121,6 +121,7 @@ h1, h2, h3, h4, h5, h6, figure {
   text-align: right;
 }
 .gtco-top .gtco-social-top {
+  display: inline-flex;
   padding: 0;
   margin: 0;
 }
@@ -129,6 +130,7 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-right: 50px;
   }
 }
+
 .gtco-top .gtco-social-top li {
   padding: 0;
   margin: 0 0 0 10px;
@@ -752,7 +754,7 @@ form label {
 #gtco-subscribe,
 #gtco-footer,
 .gtco-section {
-  padding: 7em 0;
+  padding: 1em 0;
   clear: both;
   position: relative;
 }
@@ -764,7 +766,7 @@ form label {
   #gtco-subscribe,
   #gtco-footer,
   .gtco-section {
-    padding: 2em 0;
+    padding: 0;
   }
 }
 #gtco-features.border-bottom,
@@ -1158,7 +1160,7 @@ form label {
 }
 
 #gtco-footer {
-  padding-top: 10em;
+  padding-top: 2em;
   background: #4d4d4d;
   color: rgba(255, 255, 255, 0.3);
 }
@@ -1221,8 +1223,8 @@ form label {
 }
 #gtco-footer .copyright {
   color: #b3b3b3;
-  padding-top: 3em;
-  margin-top: 3em;
+  padding-top: 2em;
+  margin-top: 0;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 @media screen and (max-width: 768px) {
@@ -2141,3 +2143,24 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+#social-section{
+  padding: 2em 0;
+}
+
+.onlymob{
+  display: none;
+}
+
+h1.follow-me strong{
+  font-weight: 700;
+  color: #66D37E;
+}
+
+#social-icons-adjust{
+  padding-left: 5px;
+}
+
+#icon-adjust{
+  padding-right: 5px;
+}
