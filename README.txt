@@ -1,13 +1,13 @@
 
-TITLE: 
-Honest - 100% Fully Responsive Free HTML5 Bootstrap Template
+TITLE:
+CODING GUIDANCE
 
 AUTHOR:
-DESIGNED & DEVELOPED by GetTemplates.co
+DESIGNED & DEVELOPED by Lucifer
 
-Website: http://gettemplates.co/
-Twitter: http://twitter.com/gettemplatesco
-Facebook: http://facebook.com/gettemplatesco
+Website: https://lucifer2198.github.io
+Twitter: http://twitter.com/RamanandSirvi
+Facebook: http://facebook.com/ram.sirvi
 
 
 CREDITS:
@@ -29,6 +29,9 @@ https://www.google.com/fonts/
 
 Icomoon
 https://icomoon.io/app/
+
+Flaticon
+https://flaticon.com
 
 Themify Icons
 https://themify.me/themify-icons
@@ -55,6 +58,5 @@ http://dimsemenov.com/plugins/magnific-popup/
 Stellar Parallax
 http://markdalgleish.com/projects/stellar.js/
 
-Demo Images:
+Images:
 http://unsplash.com
-
